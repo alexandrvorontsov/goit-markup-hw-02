@@ -33,7 +33,15 @@ ul {
   background: #ffffff;
 }
 
-.link-studio,
+.link-studio {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #2196f3;
+  text-decoration: none;
+}
+
 .link-portfolio,
 .link-contact {
   font-weight: 500;
@@ -47,7 +55,10 @@ ul {
 .link-studio:hover,
 .link-portfolio:hover,
 .link-contact:hover,
-.header-contact:hover {
+.header-contact:hover,
+.header-contact:focus,
+.footer-contact:hover,
+.footer-contact:focus {
   color: #2196f3;
 }
 
@@ -72,6 +83,7 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 /* button-title  */
@@ -84,6 +96,7 @@ ul {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /* Features group */
@@ -104,6 +117,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  text-transform: uppercase;
 }
 
 .skills-text {
@@ -142,7 +156,8 @@ ul {
   line-height: 1.18;
 }
 
-.teams-text {
+.team-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: #757575;
@@ -151,11 +166,6 @@ ul {
 /* Footer */
 .section-footer {
   background: #2f303a;
-}
-
-/* address */
-.address-footer {
-  color: #ffffff;
 }
 
 .web-logo {
@@ -171,6 +181,7 @@ ul {
   color: #ffffff;
 }
 
+/* address */
 .address-footer {
   font-weight: 400;
   font-style: normal;
@@ -193,6 +204,32 @@ ul {
 /* portfolio */
 .container-portflio {
   background: #ffffff;
+}
+
+.link-portfolio-secondary {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.link-studio-secondary,
+.link-contact-secondary {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  text-decoration: none;
+}
+
+.link-studio-secondary:hover,
+.link-portfolio-secondary:hover,
+.link-contact-secondary:hover,
+.address-footer:hover {
+  color: #2196f3;
 }
 
 /* buttons-filters-portfolio */
@@ -219,9 +256,11 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   color: #212121;
+  cursor: pointer;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   background: #2196f3;
   color: #ffffff;
 }
